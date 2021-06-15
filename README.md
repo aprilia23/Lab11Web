@@ -15,6 +15,7 @@ Unduh Codeigniter dari website https://codeigniter.com/download<p>
 • Extrak file zip Codeigniter ke direktori htdocs/lab11_ci.<p>
 • Ubah nama direktory framework-4.x.xx menjadi ci4.<p>
 • Buka browser dengan alamat http://localhost/lab11_ci/ci4/public/<p>
+![image](https://user-images.githubusercontent.com/54062259/121981499-f64eca00-cdb7-11eb-9f3d-9b561e203d3c.png)
 
   
 Menjalankan CLI (Command Line Interface)<p>
