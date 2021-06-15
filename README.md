@@ -55,3 +55,24 @@ Membuat View<p>
 
 ![image](https://user-images.githubusercontent.com/54062259/121951298-f2ee1b00-cd84-11eb-98ff-14faa617bfa0.png)
 
+Membuat Layout Web dengan CSS<p>
+File app/view/template/header.php<p>
+![image](https://user-images.githubusercontent.com/54062259/121980327-ef26bc80-cdb5-11eb-8719-ebadc28c42ab.png)
+
+File app/view/template/footer.php<p>
+![image](https://user-images.githubusercontent.com/54062259/121980349-fa79e800-cdb5-11eb-92e9-ebc3bc8dba0f.png)
+
+Kemudian ubah file app/view/about.php seperti berikut.<p>
+![image](https://user-images.githubusercontent.com/54062259/121980388-06fe4080-cdb6-11eb-83a1-e07a65659d93.png)
+
+![image](https://user-images.githubusercontent.com/54062259/121980453-285f2c80-cdb6-11eb-906a-7921d14b9e50.png)
+
+Pertanyaan dan Tugas
+Lengkapi kode program untuk menu lainnya yang ada pada Controller Page, sehinggasemua link pada navigasi header dapat menampilkan tampilan dengan layout yang sama.<p>
+![image](https://user-images.githubusercontent.com/54062259/121980883-f00c1e00-cdb6-11eb-8a99-c95a0a1b7f94.png)
+
+![image](https://user-images.githubusercontent.com/54062259/121981042-35c8e680-cdb7-11eb-9a13-70d22a6c51dc.png)
+
+![image](https://user-images.githubusercontent.com/54062259/121981076-44170280-cdb7-11eb-9974-f1a053f42b1a.png)
+
+![image](https://user-images.githubusercontent.com/54062259/121981117-51cc8800-cdb7-11eb-8d0c-0a8d2337dc83.png)
