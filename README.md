@@ -168,3 +168,18 @@ Mengedit Artikel
 ![image](https://user-images.githubusercontent.com/54062259/122665733-2ee50e00-d1d3-11eb-8d38-8700936da4e9.png)
 
 ![image](https://user-images.githubusercontent.com/54062259/122665738-36a4b280-d1d3-11eb-981d-a13ec31f73ff.png)
+
+Praktikum 13: Framework Lanjutan (Modul Login)<P>
+Membuat Tabel: User Login<P>
+![image](https://user-images.githubusercontent.com/54062259/123025575-fe84b600-d404-11eb-8809-06d37fa491b4.png)
+
+Membuat Model User
+![image](https://user-images.githubusercontent.com/54062259/123025666-296f0a00-d405-11eb-8877-ecfbc1de0d62.png)
+
+Membuat Controller User
+![image](https://user-images.githubusercontent.com/54062259/123026080-ca5dc500-d405-11eb-8140-c3fc58bf5371.png)
+
+Membuat View Login
+![image](https://user-images.githubusercontent.com/54062259/123026319-245e8a80-d406-11eb-92ae-3550f0c9d47f.png)
+
+Membuat Database Seeder
