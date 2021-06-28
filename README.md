@@ -182,4 +182,30 @@ Membuat Controller User
 Membuat View Login
 ![image](https://user-images.githubusercontent.com/54062259/123026319-245e8a80-d406-11eb-92ae-3550f0c9d47f.png)
 
-Membuat Database Seeder
+Membuat Database Seeder<p>
+Untuk keperluan ujicoba modul login, kita perlu memasukkan data user dan password kedaalam database. Untuk itu buat database seeder untuk tabel user. Buka CLI, kemudian tulis perintah berikut:<p>
+![image](https://user-images.githubusercontent.com/54062259/123574161-8c8fe080-d7f9-11eb-901f-8d1f6a2b32e2.png)
+
+Selanjutnya, buka file UserSeeder.php yang berada di lokasi direktori /app/Database/Seeds/UserSeeder.php kemudian isi dengan kode berikut:
+![image](https://user-images.githubusercontent.com/54062259/123573671-91a06000-d7f8-11eb-8e1a-e7fcfbc68344.png)
+
+Selanjutnya buka kembali CLI dan ketik perintah berikut:
+![image](https://user-images.githubusercontent.com/54062259/123574587-51da7800-d7fa-11eb-91eb-e35fb8cb215c.png)
+
+Selanjutnya buka url http://localhost:8080/user/login seperti berikut:
+![image](https://user-images.githubusercontent.com/54062259/123574715-96661380-d7fa-11eb-8411-629f430701bb.png)
+
+Menambahkan Auth Filter<p>
+Selanjutnya membuat filer untuk halaman admin. Buat file baru dengan nama Auth.php pada direktori app/Filters <p>
+![image](https://user-images.githubusercontent.com/54062259/123574920-e93fcb00-d7fa-11eb-9dd5-82eaf8d6d97a.png)
+
+Selanjutnya buka file app/Config/Filters.php tambahkan kode berikut:
+![image](https://user-images.githubusercontent.com/54062259/123575053-27d58580-d7fb-11eb-8e42-05ab502cb3ae.png)
+
+Selanjutnya buka file app/Config/Routes.php dan sesuaikan kodenya.
+![image](https://user-images.githubusercontent.com/54062259/123575165-5fdcc880-d7fb-11eb-8c1f-f4f19cc43c6f.png)
+
+Percobaan Akses Menu Admin<p>
+Buka url dengan alamat http://localhost:8080/admin/artikel ketika alamat tersebut diakses maka, akan dimuculkan halaman login.<p>
+![image](https://user-images.githubusercontent.com/54062259/123575242-8864c280-d7fb-11eb-8052-b9e0a21d6672.png)
+
