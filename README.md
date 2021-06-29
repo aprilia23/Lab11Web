@@ -209,3 +209,13 @@ Percobaan Akses Menu Admin<p>
 Buka url dengan alamat http://localhost:8080/admin/artikel ketika alamat tersebut diakses maka, akan dimuculkan halaman login.<p>
 ![image](https://user-images.githubusercontent.com/54062259/123575242-8864c280-d7fb-11eb-8052-b9e0a21d6672.png)
 
+Fungsi Logout<p>
+Tambahkan method logout pada Controller User seperti berikut:
+![image](https://user-images.githubusercontent.com/54062259/123722533-bb1dc200-d8b2-11eb-9aba-71201e846eb5.png)
+
+Maka ketika menekan logout dan konfirmasi, akan kembali ke halaman login.
+![image](https://user-images.githubusercontent.com/54062259/123722584-d4bf0980-d8b2-11eb-8c78-07cbeaac057b.png)
+
+Pertanyaan dan Tugas<p>
+Selesaikan programnya sesuai Langkah-langkah yang ada. Anda boleh melakukan improvisasi.
+![image](https://user-images.githubusercontent.com/54062259/123722694-0b951f80-d8b3-11eb-869b-26ec496b5746.png)
