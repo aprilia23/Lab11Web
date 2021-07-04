@@ -219,3 +219,42 @@ Maka ketika menekan logout dan konfirmasi, akan kembali ke halaman login.
 Pertanyaan dan Tugas<p>
 Selesaikan programnya sesuai Langkah-langkah yang ada. Anda boleh melakukan improvisasi.
 ![image](https://user-images.githubusercontent.com/54062259/123722694-0b951f80-d8b3-11eb-869b-26ec496b5746.png)
+
+Praktikum 14: Pagination dan Pencarian<p>
+Membuat Pagination<p>
+Untuk membuat pagination, buka Kembali Controller Artikel, kemudian modifikasi kode pada method admin_index seperti berikut.<p>
+![image](https://user-images.githubusercontent.com/54062259/124387447-ecf6b480-dd08-11eb-8a62-83d614134ccb.png)
+
+Kemudian buka file views/artikel/admin_index.php dan tambahkan kode berikut dibawah deklarasi tabel data<p>
+![image](https://user-images.githubusercontent.com/54062259/124387541-465ee380-dd09-11eb-9c03-7192b0bc7429.png)
+
+![image](https://user-images.githubusercontent.com/54062259/124387588-655d7580-dd09-11eb-8b16-1bd9efa822a6.png)
+
+Membuat Pencarian<p>
+Untuk membuat pencarian data, buka kembali Controller Artikel, pada method admin_index ubah kodenya seperti berikut<p>
+![image](https://user-images.githubusercontent.com/54062259/124387639-93db5080-dd09-11eb-8491-36d0695ce23b.png)
+
+Kemudian buka kembali file views/artikel/admin_index.php dan tambahkan form pencarian sebelum deklarasi tabel seperti berikut:
+![image](https://user-images.githubusercontent.com/54062259/124387693-b8cfc380-dd09-11eb-8fc4-f3746106a323.png)
+
+Dan pada link pager ubah seperti berikut
+![image](https://user-images.githubusercontent.com/54062259/124387724-c8e7a300-dd09-11eb-8182-7ea476b946e7.png)
+
+![image](https://user-images.githubusercontent.com/54062259/124387735-d7ce5580-dd09-11eb-927e-89baeb4e6c95.png)
+
+Upload Gambar<p>
+Menambahkan fungsi unggah gambar pada tambah artikel. Buka kembali Controller Artikel, sesuaikan kode pada method add seperti berikut:
+![image](https://user-images.githubusercontent.com/54062259/124387796-17953d00-dd0a-11eb-88e2-0b23bd3df792.png)
+
+Kemudian pada file views/artikel/form_add.php tambahkan field input file seperti berikut.
+![image](https://user-images.githubusercontent.com/54062259/124387826-3abfec80-dd0a-11eb-8ae7-cfe1740b7ca5.png)
+
+Dan sesuaikan tag form dengan menambahkan ecrypt type seperti berikut.
+![image](https://user-images.githubusercontent.com/54062259/124387852-50351680-dd0a-11eb-964c-a6bf55be771f.png)
+
+![image](https://user-images.githubusercontent.com/54062259/124387861-5d520580-dd0a-11eb-8d10-0237084c620d.png)
+
+Pertanyaan dan Tugas<p>
+Selesaikan programnya sesuai Langkah-langkah yang ada. Anda boleh melakukan improvisasi.
+![image](https://user-images.githubusercontent.com/54062259/124387900-7bb80100-dd0a-11eb-9158-cfaf1302eca5.png)
+
